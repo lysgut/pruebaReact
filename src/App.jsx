@@ -26,8 +26,8 @@ const App = () => {
     <div className="App">
       <Navbar count={count} increment={increment} decrement={decrement} />
       <div className="cards-container">
-        {cardsData.map((data, index) => (
-          <Card key={index} data={data} />
+          {cardsData.map((data, id) => (
+          <Card key={id} data={data} />
         ))}
       </div>
     </div>
