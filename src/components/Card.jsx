@@ -6,7 +6,7 @@ const Card = ({data}) => {
             <div className="card">
       <h3>{data.title}</h3>
       <h1>US${data.price}</h1>
-      <img src={data.img} alt="IMAGEN" />
+      <img src={data.img} alt="IMG   . . ." />
       <button><h3>Add to Cart</h3></button>
     </div>
         </>
