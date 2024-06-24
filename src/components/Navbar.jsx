@@ -1,10 +1,16 @@
 import React from 'react'
+    
 
-function Navbar() {
+const Navbar = ({count, increment, decrement}) => {
     return (
+        <>
         <nav className='navbar'>
-            Bienvenidos al Himalaya
+            <h1>Contador : </h1>
+            <span>{count}</span>
+      <button onClick={decrement} disabled={count === 0}>-</button>
+      <button onClick={increment} disabled={count === 100}>+</button>
         </nav>
+        </>
     )
 
 };
