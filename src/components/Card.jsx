@@ -5,7 +5,7 @@ const Card = ({data}) => {
         <>
             <div className="card">
       <h3>{data.title}</h3>
-      <img src="{data.image}" alt="IMAGEN" />
+      <img src={data.img} alt="IMAGEN" />
     </div>
         </>
     )
